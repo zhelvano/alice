@@ -19,7 +19,7 @@ MONGO_DB_URI = "mongodb+srv://zohunmusic:zohunmusic@zohunmusic.rxrh2fz.mongodb.n
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -4802846909
+LOG_GROUP_ID = -1002602313273
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 1301819689
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/WarungRim"
-SUPPORT_GROUP = "https://t.me/+MHPcIEM1UMdjNWM1"
+SUPPORT_CHANNEL = "https://t.me/msclog"
+SUPPORT_GROUP = "https://t.me/loggroupmsc"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
