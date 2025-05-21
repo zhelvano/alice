@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 29387376
+API_HASH = "5a159dde6013b22490f29f7cbae4c679"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7764840482:AAF332iAsq-V68IlFdJXXHTwkzWhzXou0FA"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://zohunmusic:zohunmusic@zohunmusic.rxrh2fz.mongodb.net/?retryWrites=true&w=majority&appName=zohunmusic"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -4802846909
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 1301819689
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/WarungRim"
+SUPPORT_GROUP = "https://t.me/+MHPcIEM1UMdjNWM1"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQHAanAAJ4NXYPdSyvBgMx3oHKCn8Kec9VA_3hsiSIH5q6TPzAna5ZlbIVg9s667N7D50hPKyACdDHD4KZxJ5A3hsgIF5b-6U55jQz09L33tBeYFb2PY8FT82IQek9fIOUjwXuF7Rl6_RULBO2WUyIwCgzicfyX5BljTRwPjiS5tWaQXyX002NIm2MH1NF0g08uDUaoEKTkTlFOutAqMQ4UW56YFyBdQk_63n7QQrtf66GiXQ7OS4sG-LE5GyLN-A_lagWOdoNWez3hjNo0mOxqxwhWzmj9iv5HkGsVUYdSEf6KC-F1XeemaH0mxlcshyutVj4vF28QU2aWMfAMcHRWdzFTgmwAAAAHL9279AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -77,12 +77,12 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://telegra.ph/file/ef04a6ff1a5c2514b8f3e-7f4bfde7558bc9ade8.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://telegra.ph/file/ef04a6ff1a5c2514b8f3e-7f4bfde7558bc9ade8.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/ef04a6ff1a5c2514b8f3e-7f4bfde7558bc9ade8.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/ef04a6ff1a5c2514b8f3e-7f4bfde7558bc9ade8.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
